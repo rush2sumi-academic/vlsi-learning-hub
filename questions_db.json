@@ -1,0 +1,1936 @@
+{
+  "flashcards": [
+    {
+      "id": "card_1",
+      "category": "Basic",
+      "topic": "VLSI",
+      "question": "What is VLSI?",
+      "answer": "Very Large Scale Integration (VLSI) is the process of integrating millions or billions of metal-oxide-semiconductor transistors onto a single silicon integrated circuit chip."
+    },
+    {
+      "id": "card_2",
+      "category": "Basic",
+      "topic": "CMOS",
+      "question": "What is CMOS?",
+      "answer": "CMOS stands for Complementary Metal-Oxide-Semiconductor. It is a technology that uses complementary pairs of P-type and N-type MOSFETs to build low-power digital logic gates."
+    },
+    {
+      "id": "card_3",
+      "category": "Basic",
+      "topic": "CMOS",
+      "question": "What is the difference between NMOS and PMOS?",
+      "answer": "NMOS uses electrons as carriers (fast, pulls down to GND, turns ON with High gate voltage). PMOS uses holes as carriers (slower, pulls up to VDD, turns ON with Low gate voltage)."
+    },
+    {
+      "id": "card_4",
+      "category": "Basic",
+      "topic": "VLSI",
+      "question": "What is Moore's Law?",
+      "answer": "Moore's Law is an empirical observation that the number of transistors on a microchip doubles roughly every two years, while the cost is halved."
+    },
+    {
+      "id": "card_5",
+      "category": "Basic",
+      "topic": "VLSI",
+      "question": "What is an ASIC?",
+      "answer": "ASIC stands for Application-Specific Integrated Circuit. It is an integrated circuit customized for a particular use, rather than general-purpose processors."
+    },
+    {
+      "id": "card_6",
+      "category": "Basic",
+      "topic": "VLSI",
+      "question": "What is an FPGA?",
+      "answer": "FPGA stands for Field-Programmable Gate Array. It is a semiconductor device that can be configured by the customer or designer after manufacturing."
+    },
+    {
+      "id": "card_7",
+      "category": "Basic",
+      "topic": "CMOS",
+      "question": "What is the threshold voltage (Vth) of a MOSFET?",
+      "answer": "Vth is the minimum gate-to-source voltage (Vgs) required to create a conducting channel between the source and drain terminals."
+    },
+    {
+      "id": "card_8",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is the difference between wire and reg in Verilog?",
+      "answer": "A wire represents a physical connection and does not store state; it must be continuously driven. A reg represents a variable that holds its value between procedural assignments."
+    },
+    {
+      "id": "card_9",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is structural modeling in Verilog?",
+      "answer": "Structural modeling describes a circuit by instantiating lower-level modules and logic gates and connecting them using wires."
+    },
+    {
+      "id": "card_10",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is dataflow modeling in Verilog?",
+      "answer": "Dataflow modeling describes logic using continuous assignments ('assign' statements) that define expressions on wires."
+    },
+    {
+      "id": "card_11",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is behavioral modeling in Verilog?",
+      "answer": "Behavioral modeling describes the algorithmic behavior of a circuit inside procedural blocks like 'always' and 'initial'."
+    },
+    {
+      "id": "card_12",
+      "category": "Basic",
+      "topic": "Logic Gates",
+      "question": "What is a universal gate?",
+      "answer": "A universal gate is a logic gate that can implement any Boolean function without the need for other gates. NAND and NOR are universal gates."
+    },
+    {
+      "id": "card_13",
+      "category": "Basic",
+      "topic": "FSM",
+      "question": "What is a Moore FSM?",
+      "answer": "A finite state machine whose outputs depend only on the current state and are independent of current inputs."
+    },
+    {
+      "id": "card_14",
+      "category": "Basic",
+      "topic": "FSM",
+      "question": "What is a Mealy FSM?",
+      "answer": "A finite state machine whose outputs depend on both the current state and the current inputs."
+    },
+    {
+      "id": "card_15",
+      "category": "Basic",
+      "topic": "Combinational",
+      "question": "What is a multiplexer?",
+      "answer": "A combinational circuit that selects one of many inputs and routes it to a single output line based on selector lines."
+    },
+    {
+      "id": "card_16",
+      "category": "Basic",
+      "topic": "Sequential",
+      "question": "What is a latch?",
+      "answer": "A level-sensitive sequential circuit that stores state and is transparent (passes input to output) when enabled."
+    },
+    {
+      "id": "card_17",
+      "category": "Basic",
+      "topic": "Sequential",
+      "question": "What is a flip-flop?",
+      "answer": "An edge-triggered sequential circuit that stores state and updates its value on active transitions (rising or falling) of a clock."
+    },
+    {
+      "id": "card_18",
+      "category": "Basic",
+      "topic": "Digital",
+      "question": "What is the difference between synchronous and asynchronous circuits?",
+      "answer": "Synchronous circuits use a global clock to synchronize state changes, while asynchronous circuits use handshaking protocols or local signal changes."
+    },
+    {
+      "id": "card_19",
+      "category": "Basic",
+      "topic": "IC Classifications",
+      "question": "What is SSI, MSI, LSI, and VLSI?",
+      "answer": "Small, Medium, Large, and Very Large Scale Integration, classified by gate/transistor counts on a single silicon die."
+    },
+    {
+      "id": "card_20",
+      "category": "Basic",
+      "topic": "Logic Optimization",
+      "question": "What is a Karnaugh Map (K-Map)?",
+      "answer": "A graphical method to simplify Boolean algebra expressions without algebraic calculations, mapping combinations into adjacent squares."
+    },
+    {
+      "id": "card_21",
+      "category": "Basic",
+      "topic": "Number Systems",
+      "question": "What is 2's complement?",
+      "answer": "A mathematical operation used to represent signed binary numbers, where the MSB has a negative weight (e.g. -2^(N-1))."
+    },
+    {
+      "id": "card_22",
+      "category": "Basic",
+      "topic": "Setup/Hold",
+      "question": "What is propagation delay?",
+      "answer": "The time taken for an input signal transition to propagate and cause a stable logic transition at the output of a gate."
+    },
+    {
+      "id": "card_23",
+      "category": "Basic",
+      "topic": "Setup/Hold",
+      "question": "What is contamination delay?",
+      "answer": "The minimum delay from an input change to the first change on the output of a gate, also called min-delay."
+    },
+    {
+      "id": "card_24",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is a module in Verilog?",
+      "answer": "The fundamental block of hierarchy in Verilog representing a logical circuit block with defined ports and internal logic."
+    },
+    {
+      "id": "card_25",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What does timescale 1ns/1ps mean?",
+      "answer": "Sets the reference time unit to 1ns (delays specified as #1 are 1ns) and time precision (rounding resolution) to 1ps."
+    },
+    {
+      "id": "card_26",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is a blocking assignment?",
+      "answer": "An assignment using the '=' operator that executes sequentially, blocking subsequent assignments until completed."
+    },
+    {
+      "id": "card_27",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is a non-blocking assignment?",
+      "answer": "An assignment using the '<=' operator that executes concurrently, scheduling updates for the end of the time step without blocking."
+    },
+    {
+      "id": "card_28",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is a localparam?",
+      "answer": "A constant parameter whose scope is restricted to the local module and cannot be overridden by parent modules during instantiation."
+    },
+    {
+      "id": "card_29",
+      "category": "Basic",
+      "topic": "CMOS",
+      "question": "What is the body effect?",
+      "answer": "A short-channel effect where the threshold voltage changes due to a source-to-substrate (bulk) bias potential."
+    },
+    {
+      "id": "card_30",
+      "category": "Basic",
+      "topic": "CMOS",
+      "question": "Why does PMOS conduct poorly compared to NMOS?",
+      "answer": "Because hole mobility in silicon is 2-3 times lower than electron mobility, resulting in less current drive for equal channel dimensions."
+    },
+    {
+      "id": "card_31",
+      "category": "Basic",
+      "topic": "Digital",
+      "question": "What is a Gray Code?",
+      "answer": "An unweighted binary code where only one bit transitions at a time between successive numeric values, preventing hazards."
+    },
+    {
+      "id": "card_32",
+      "category": "Basic",
+      "topic": "Verilog",
+      "question": "What is a testbench?",
+      "answer": "A non-synthesizable block used to apply control stimuli and verify Device Under Test (DUT) outputs in simulation."
+    },
+    {
+      "id": "card_33",
+      "category": "Basic",
+      "topic": "Verification",
+      "question": "What is verification?",
+      "answer": "The process of checking that a design matches its functional specification through simulation, emulation, or formal methods."
+    },
+    {
+      "id": "card_34",
+      "category": "Basic",
+      "topic": "Design",
+      "question": "What is synthesis?",
+      "answer": "The process of translating high-level RTL code into a gate-level netlist of library standard cells under timing constraints."
+    },
+    {
+      "id": "card_35",
+      "category": "Basic",
+      "topic": "Verification",
+      "question": "What is code coverage?",
+      "answer": "A verification metric indicating how much of the RTL code structure (lines, branches, expressions) has been executed during simulation."
+    },
+    {
+      "id": "card_36",
+      "category": "Basic",
+      "topic": "STA",
+      "question": "What is static timing analysis?",
+      "answer": "A method of computing timing delays along paths in a digital circuit without running functional simulations."
+    },
+    {
+      "id": "card_37",
+      "category": "Basic",
+      "topic": "Physical Design",
+      "question": "What is floorplanning?",
+      "answer": "Determining chip size, core boundary, power routing, and macro/I/O placement to optimize design constraints."
+    },
+    {
+      "id": "card_38",
+      "category": "Basic",
+      "topic": "Physical Design",
+      "question": "What is routing?",
+      "answer": "Laying out physical metal wires to connect standard cells together per the netlist while satisfying design rules."
+    },
+    {
+      "id": "card_39",
+      "category": "Basic",
+      "topic": "DFT",
+      "question": "What is a scan chain?",
+      "answer": "A shift register path formed by chaining flip-flops together to improve test observability and controllability after fabrication."
+    },
+    {
+      "id": "card_40",
+      "category": "Basic",
+      "topic": "CMOS",
+      "question": "What is dynamic power?",
+      "answer": "Power consumed during signal transitions, primarily charging/discharging capacitances and short-circuit currents."
+    },
+    {
+      "id": "card_41",
+      "category": "Basic",
+      "topic": "CMOS",
+      "question": "What is static power?",
+      "answer": "Leakage power consumed when gates are idle, caused by subthreshold, gate tunneling, and reverse-bias leakage currents."
+    },
+    {
+      "id": "card_42",
+      "category": "Basic",
+      "topic": "Logic Design",
+      "question": "What is active-low logic?",
+      "answer": "A logic scheme where a logic 0 indicates the active or asserted state, commonly used for resets and select signals."
+    },
+    {
+      "id": "card_43",
+      "category": "Basic",
+      "topic": "Logic Design",
+      "question": "What is a tri-state buffer?",
+      "answer": "A buffer with three output states: High (1), Low (0), and High-Impedance (Z) where the output is electrically disconnected."
+    },
+    {
+      "id": "card_44",
+      "category": "Basic",
+      "topic": "STA",
+      "question": "What is a clock period?",
+      "answer": "The time elapsed between two consecutive identical edges of the clock signal, representing clock cycle time."
+    },
+    {
+      "id": "card_45",
+      "category": "Basic",
+      "topic": "Logic Design",
+      "question": "What is even parity?",
+      "answer": "A check bit added to a binary code to ensure the total count of 1-bits is even, facilitating simple error detection."
+    },
+    {
+      "id": "card_46",
+      "category": "Intermediate",
+      "topic": "FinFET",
+      "question": "What is a FinFET?",
+      "answer": "A 3D transistor where the channel is a thin vertical fin wrapped by the gate on three sides, reducing leakage."
+    },
+    {
+      "id": "card_47",
+      "category": "Intermediate",
+      "topic": "FinFET",
+      "question": "Why is FinFET better than planar MOSFET?",
+      "answer": "Better gate control over the channel, lower subthreshold leakage, and higher drive currents at lower operating voltages."
+    },
+    {
+      "id": "card_48",
+      "category": "Intermediate",
+      "topic": "DIBL",
+      "question": "What is Drain-Induced Barrier Lowering (DIBL)?",
+      "answer": "A short-channel effect where high drain voltage lowers the source-channel potential barrier, reducing threshold voltage."
+    },
+    {
+      "id": "card_49",
+      "category": "Intermediate",
+      "topic": "CMOS",
+      "question": "What is channel length modulation?",
+      "answer": "The saturation-region shortening of the channel length as Vds increases, which slightly increases drain current."
+    },
+    {
+      "id": "card_50",
+      "category": "Intermediate",
+      "topic": "Latch-up",
+      "question": "What is latch-up?",
+      "answer": "An accidental low-impedance path between VDD and GND caused by parasitic SCR structures in CMOS, causing short circuits."
+    },
+    {
+      "id": "card_51",
+      "category": "Intermediate",
+      "topic": "Latch-up",
+      "question": "How do you prevent latch-up?",
+      "answer": "Placing substrate/well guard rings, using well taps, and increasing spacing between N-well and P-substrate regions."
+    },
+    {
+      "id": "card_52",
+      "category": "Intermediate",
+      "topic": "Metastability",
+      "question": "What is metastability?",
+      "answer": "An unstable state where a flip-flop output fails to settle to a stable 0 or 1 within the required time due to setup/hold violations."
+    },
+    {
+      "id": "card_53",
+      "category": "Intermediate",
+      "topic": "CDC",
+      "question": "What is Clock Domain Crossing?",
+      "answer": "A signal transition from one clock domain to another asynchronous clock domain, requiring synchronization."
+    },
+    {
+      "id": "card_54",
+      "category": "Intermediate",
+      "topic": "Synchronizer",
+      "question": "What is a 2-FF synchronizer?",
+      "answer": "Two cascading flip-flops used to resolve metastability before passing asynchronous data into a new clock domain."
+    },
+    {
+      "id": "card_55",
+      "category": "Intermediate",
+      "topic": "Synchronizer",
+      "question": "What is a FIFO synchronizer?",
+      "answer": "A queue using gray-coded read/write pointers to safely cross multi-bit data between asynchronous clock domains."
+    },
+    {
+      "id": "card_56",
+      "category": "Intermediate",
+      "topic": "Handshaking",
+      "question": "What is handshaking CDC?",
+      "answer": "A CDC method where control signals (request/acknowledge) are passed back and forth to guarantee data transfer."
+    },
+    {
+      "id": "card_57",
+      "category": "Intermediate",
+      "topic": "FSM",
+      "question": "What is one-hot encoding?",
+      "answer": "A state representation where only one flip-flop is active (logic 1) at a time, simplifying next-state logic."
+    },
+    {
+      "id": "card_58",
+      "category": "Intermediate",
+      "topic": "FSM",
+      "question": "What is binary encoding?",
+      "answer": "A state representation using standard binary counting, minimizing the number of state flip-flops."
+    },
+    {
+      "id": "card_59",
+      "category": "Intermediate",
+      "topic": "FSM",
+      "question": "What is gray state encoding?",
+      "answer": "State encoding where successive states differ by only 1 bit, preventing hazard glitches during transitions."
+    },
+    {
+      "id": "card_60",
+      "category": "Intermediate",
+      "topic": "Verilog",
+      "question": "What is a generate block?",
+      "answer": "A construct used to instantiate modules or generate code structures conditionally or in a loop based on parameters."
+    },
+    {
+      "id": "card_61",
+      "category": "Intermediate",
+      "topic": "Verilog",
+      "question": "What is a task in Verilog?",
+      "answer": "A procedural block that can consume simulation time (delays) and have multiple outputs, but does not return a direct value."
+    },
+    {
+      "id": "card_62",
+      "category": "Intermediate",
+      "topic": "Verilog",
+      "question": "What is a function in Verilog?",
+      "answer": "A zero-delay procedural block that must return exactly one value and cannot contain time-consuming statements."
+    },
+    {
+      "id": "card_63",
+      "category": "Intermediate",
+      "topic": "Verilog",
+      "question": "What is the difference between logic and reg in SystemVerilog?",
+      "answer": "logic is a single-drive variable that can replace both reg and wire, eliminating declaration confusion."
+    },
+    {
+      "id": "card_64",
+      "category": "Intermediate",
+      "topic": "Verilog",
+      "question": "What is procedural assignment?",
+      "answer": "Assignment inside always or initial blocks (using '=' or '<='), storing values in variables."
+    },
+    {
+      "id": "card_65",
+      "category": "Intermediate",
+      "topic": "Verilog",
+      "question": "What is continuous assignment?",
+      "answer": "Assignment on wires using the assign keyword, executing continuously in parallel."
+    },
+    {
+      "id": "card_66",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is setup time?",
+      "answer": "The minimum time before the clock edge during which the data input to a flip-flop must remain stable."
+    },
+    {
+      "id": "card_67",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is hold time?",
+      "answer": "The minimum time after the clock edge during which the data input to a flip-flop must remain stable."
+    },
+    {
+      "id": "card_68",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is clock skew?",
+      "answer": "The spatial difference in the arrival time of a clock signal edge at two different registers."
+    },
+    {
+      "id": "card_69",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is clock jitter?",
+      "answer": "The temporal variation of clock edges from their ideal periodic positions over time."
+    },
+    {
+      "id": "card_70",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is setup slack?",
+      "answer": "The timing margin for setup: Required Arrival Time minus Actual Arrival Time. Positive is good; negative is a violation."
+    },
+    {
+      "id": "card_71",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is hold slack?",
+      "answer": "The timing margin for hold: Actual Arrival Time minus Required Arrival Time."
+    },
+    {
+      "id": "card_72",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is a false path?",
+      "answer": "A path that physically exists but is electrically impossible to traverse, or is intentionally ignored for timing."
+    },
+    {
+      "id": "card_73",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "What is a multi-cycle path?",
+      "answer": "A path designed to take more than one clock cycle to propagate data from source to destination."
+    },
+    {
+      "id": "card_74",
+      "category": "Intermediate",
+      "topic": "Physical Design",
+      "question": "What is Floorplanning?",
+      "answer": "The step of placing macros, pad pins, and partitioning the core layout."
+    },
+    {
+      "id": "card_75",
+      "category": "Intermediate",
+      "topic": "Physical Design",
+      "question": "What is Placement?",
+      "answer": "Placing standard cell instances on rows within the core area, optimizing wire length and timing."
+    },
+    {
+      "id": "card_76",
+      "category": "Intermediate",
+      "topic": "Physical Design",
+      "question": "What is Clock Tree Synthesis (CTS)?",
+      "answer": "Constructing a clock buffer network to distribute the clock to all registers with minimal skew."
+    },
+    {
+      "id": "card_77",
+      "category": "Intermediate",
+      "topic": "Physical Design",
+      "question": "What is RC extraction?",
+      "answer": "Computing parasitic resistances and capacitances of layout metal lines to perform accurate delay calculation."
+    },
+    {
+      "id": "card_78",
+      "category": "Intermediate",
+      "topic": "DFT",
+      "question": "What is ATPG?",
+      "answer": "Automatic Test Pattern Generation: using software to generate vectors to test manufactured chips for structural defects."
+    },
+    {
+      "id": "card_79",
+      "category": "Intermediate",
+      "topic": "DFT",
+      "question": "What is BIST?",
+      "answer": "Built-In Self-Test: adding internal test circuits (like LFSR and MISR) to test memory or logic blocks autonomously."
+    },
+    {
+      "id": "card_80",
+      "category": "Intermediate",
+      "topic": "DFT",
+      "question": "What is JTAG?",
+      "answer": "Joint Test Action Group: a standard interface (IEEE 1149.1) used for boundary scans to test PCB interconnections."
+    },
+    {
+      "id": "card_81",
+      "category": "Intermediate",
+      "topic": "Fault Models",
+      "question": "What is a stuck-at fault?",
+      "answer": "A defect model where a wire signal is permanently tied to VDD (stuck-at-1) or GND (stuck-at-0)."
+    },
+    {
+      "id": "card_82",
+      "category": "Intermediate",
+      "topic": "Fault Models",
+      "question": "What is a transition fault?",
+      "answer": "A defect model representing slow-to-rise or slow-to-fall signal propagation."
+    },
+    {
+      "id": "card_83",
+      "category": "Intermediate",
+      "topic": "Fault Models",
+      "question": "What is a path delay fault?",
+      "answer": "A defect model testing whether the cumulative delay of a path exceeds the clock cycle."
+    },
+    {
+      "id": "card_84",
+      "category": "Intermediate",
+      "topic": "Power",
+      "question": "What is leakage power?",
+      "answer": "Power consumed by subthreshold conduction, gate tunneling, and reverse bias leakage when transistors are inactive."
+    },
+    {
+      "id": "card_85",
+      "category": "Intermediate",
+      "topic": "Power",
+      "question": "What is short-circuit power?",
+      "answer": "Direct current flow from VDD to GND during switching when both pull-up and pull-down networks are transiently ON."
+    },
+    {
+      "id": "card_86",
+      "category": "Intermediate",
+      "topic": "Power",
+      "question": "What is clock gating?",
+      "answer": "Disabling the clock signal to idle registers to save dynamic switching power."
+    },
+    {
+      "id": "card_87",
+      "category": "Intermediate",
+      "topic": "Power",
+      "question": "What is power gating?",
+      "answer": "Shutting off the power supply (VDD) to inactive blocks to eliminate static leakage power."
+    },
+    {
+      "id": "card_88",
+      "category": "Intermediate",
+      "topic": "Physical Design",
+      "question": "What is Antenna Effect?",
+      "answer": "Charge accumulation on long metal wires during fabrication, which can rupture thin gate oxides."
+    },
+    {
+      "id": "card_89",
+      "category": "Intermediate",
+      "topic": "Physical Design",
+      "question": "How is the Antenna Effect solved?",
+      "answer": "Inserting antenna diodes or routing wires to higher metal layers (layer hopping)."
+    },
+    {
+      "id": "card_90",
+      "category": "Intermediate",
+      "topic": "STA",
+      "question": "Define Setup Constraint Equation.",
+      "answer": "T_cq + T_comb + T_setup <= T_clk + T_skew. Slack is the difference."
+    },
+    {
+      "id": "card_91",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is setup time borrowing in latches?",
+      "answer": "Transparent latches allow data to arrive late, 'borrowing' time from the subsequent clock phase."
+    },
+    {
+      "id": "card_92",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is recovery time?",
+      "answer": "The minimum setup time for an asynchronous control signal (like reset) to go inactive before the active clock edge."
+    },
+    {
+      "id": "card_93",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is removal time?",
+      "answer": "The minimum hold time for an asynchronous control signal to remain active after the active clock edge."
+    },
+    {
+      "id": "card_94",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is On-Chip Variation (OCV)?",
+      "answer": "Variations in process, voltage, and temperature across different locations on the same die."
+    },
+    {
+      "id": "card_95",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is the difference between AOCV and POCV?",
+      "answer": "AOCV applies location-distance variation derates; POCV models variation statistically per cell (using standard deviations)."
+    },
+    {
+      "id": "card_96",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is Layout vs Schematic (LVS)?",
+      "answer": "A physical verification step checking that layout netlist connectivity matches the schematic netlist."
+    },
+    {
+      "id": "card_97",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is Design Rule Checking (DRC)?",
+      "answer": "Verification that layout patterns obey geometric spacing and width rules set by the foundry."
+    },
+    {
+      "id": "card_98",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is Electromigration?",
+      "answer": "Gradual displacement of metal atoms in conductors due to high current density, causing opens or shorts."
+    },
+    {
+      "id": "card_99",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "How is Electromigration solved?",
+      "answer": "Widening metal tracks or using electromigration-resistant metals like copper or ruthenium."
+    },
+    {
+      "id": "card_100",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is IR Drop?",
+      "answer": "Voltage drops across power distribution networks due to wire resistances, slowing cell speeds."
+    },
+    {
+      "id": "card_101",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is dynamic IR drop?",
+      "answer": "High voltage drops occurring during active clock edges when many cells switch simultaneously."
+    },
+    {
+      "id": "card_102",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is Crosstalk?",
+      "answer": "Unwanted signal coupling between adjacent routing wires due to mutual capacitance and inductance."
+    },
+    {
+      "id": "card_103",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is Crosstalk delay?",
+      "answer": "Crosstalk slowing down or speeding up transition times due to opposite or same-direction switching on neighboring lines."
+    },
+    {
+      "id": "card_104",
+      "category": "Advanced",
+      "topic": "Physical Design",
+      "question": "What is Crosstalk noise (glitch)?",
+      "answer": "A voltage spike induced on an idle victim line by a transition on an adjacent aggressor line."
+    },
+    {
+      "id": "card_105",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "How do you fix setup violations?",
+      "answer": "Gate sizing (increase driver strength), logic restructuring, lowering threshold voltage (LVT), or lowering clock frequency."
+    },
+    {
+      "id": "card_106",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "How do you fix hold violations?",
+      "answer": "Inserting delay buffers on the data path to slow it down (cannot be fixed by changing clock frequency)."
+    },
+    {
+      "id": "card_107",
+      "category": "Advanced",
+      "topic": "Verification",
+      "question": "What is functional coverage?",
+      "answer": "A verification metric defining user-specified logic scenarios to track which features have been verified."
+    },
+    {
+      "id": "card_108",
+      "category": "Advanced",
+      "topic": "Verification",
+      "question": "What is assertion-based verification (ABV)?",
+      "answer": "Using assertions (SystemVerilog Assertions - SVA) to monitor and verify design properties in real-time."
+    },
+    {
+      "id": "card_109",
+      "category": "Advanced",
+      "topic": "Verification",
+      "question": "What is constrained-random stimulus?",
+      "answer": "Generating random test vectors restricted by constraints to hit corner cases automatically."
+    },
+    {
+      "id": "card_110",
+      "category": "Advanced",
+      "topic": "Metastability",
+      "question": "What is Mean Time Between Failures (MTBF) for synchronizers?",
+      "answer": "A metric estimating the average time between system failures due to metastability."
+    },
+    {
+      "id": "card_111",
+      "category": "Advanced",
+      "topic": "GAAFET",
+      "question": "What is GAAFET (Gate-All-Around)?",
+      "answer": "A transistor architecture where the gate material wraps around the nanosheet channel completely on all sides."
+    },
+    {
+      "id": "card_112",
+      "category": "Advanced",
+      "topic": "FinFET",
+      "question": "What is FinFET self-heating?",
+      "answer": "Heat confinement in FinFET fins due to poor thermal conductivity of surrounding oxide layers, increasing local temperature."
+    },
+    {
+      "id": "card_113",
+      "category": "Advanced",
+      "topic": "CMOS",
+      "question": "What is Fowler-Nordheim tunneling?",
+      "answer": "Quantum mechanical tunneling of electrons through thin barrier oxides under high electric fields (used in EEPROMs/Flash)."
+    },
+    {
+      "id": "card_114",
+      "category": "Advanced",
+      "topic": "CMOS",
+      "question": "What is gate-induced drain leakage (GIDL)?",
+      "answer": "Substrate leakage current under the gate-drain overlap region caused by high electric fields in sub-micron devices."
+    },
+    {
+      "id": "card_115",
+      "category": "Advanced",
+      "topic": "Clock Tree",
+      "question": "What is clock latency (insertion delay)?",
+      "answer": "The time delay required for a clock signal to propagate from the clock source pin to register clock pins."
+    },
+    {
+      "id": "card_116",
+      "category": "Advanced",
+      "topic": "Power",
+      "question": "What is a Level Shifter?",
+      "answer": "A cell used to interface signals traveling between two different voltage domains in multi-VDD designs."
+    },
+    {
+      "id": "card_117",
+      "category": "Advanced",
+      "topic": "Power",
+      "question": "What is an Isolation Cell?",
+      "answer": "A cell used to clamp signals to a safe constant value when crossing from a powered-down domain to an active domain."
+    },
+    {
+      "id": "card_118",
+      "category": "Advanced",
+      "topic": "Power",
+      "question": "What is a Retention Flop?",
+      "answer": "A special flip-flop that preserves its state using an auxiliary low-leakage supply when the primary block is power-gated."
+    },
+    {
+      "id": "card_119",
+      "category": "Advanced",
+      "topic": "DFT",
+      "question": "What is a fault coverage metric?",
+      "answer": "The ratio of faults detected by ATPG patterns to the total testable faults in the design."
+    },
+    {
+      "id": "card_120",
+      "category": "Advanced",
+      "topic": "DFT",
+      "question": "What is IDDQ testing?",
+      "answer": "Testing method detecting defects by measuring supply leakage current in the quiescent (idle) state."
+    },
+    {
+      "id": "card_121",
+      "category": "Advanced",
+      "topic": "Verification",
+      "question": "What is UVM?",
+      "answer": "Universal Verification Methodology: a standardized SystemVerilog library to build modular, coverage-driven verification testbenches."
+    },
+    {
+      "id": "card_122",
+      "category": "Advanced",
+      "topic": "DFT",
+      "question": "What is boundary scan?",
+      "answer": "Test methodology inserting scan cells on chip pads to verify pin connections on a PCB (JTAG)."
+    },
+    {
+      "id": "card_123",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is dynamic timing analysis?",
+      "answer": "Functional gate-level simulation verifying timing paths by applying input waveforms over time."
+    },
+    {
+      "id": "card_124",
+      "category": "Advanced",
+      "topic": "CMOS",
+      "question": "What is velocity saturation?",
+      "answer": "Saturation of carrier velocity in short-channel devices due to high lateral electric fields, limiting drain current."
+    },
+    {
+      "id": "card_125",
+      "category": "Advanced",
+      "topic": "FSM",
+      "question": "What is a glitch-free clock multiplexer?",
+      "answer": "A circuit using synchronized enables to switch clock sources safely without introducing transient clock spikes."
+    },
+    {
+      "id": "card_126",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is clock latency uncertainty?",
+      "answer": "A margin added during timing analysis to model jitter and tree variations."
+    },
+    {
+      "id": "card_127",
+      "category": "Advanced",
+      "topic": "Clock Tree",
+      "question": "What is clock gating setup/hold time?",
+      "answer": "The setup and hold requirements for the gating control signal relative to the clock."
+    },
+    {
+      "id": "card_128",
+      "category": "Advanced",
+      "topic": "SOI",
+      "question": "What is Silicon-on-Insulator (SOI) technology?",
+      "answer": "Fabricating transistors on a thin silicon layer isolated from the bulk substrate by a buried oxide (BOX) layer."
+    },
+    {
+      "id": "card_129",
+      "category": "Advanced",
+      "topic": "STA",
+      "question": "What is a multi-cycle path constraint?",
+      "answer": "An instruction tells the STA tool to allow N clock cycles (e.g. set_multicycle_path 2) for a path."
+    },
+    {
+      "id": "card_130",
+      "category": "Advanced",
+      "topic": "DFT",
+      "question": "What is a transitional fault check?",
+      "answer": "Testing a gate's ability to switch from 0 to 1 and 1 to 0 within a clock cycle."
+    }
+  ],
+  "quiz": {
+    "VLSI Fundamentals": [
+      {
+        "q": "What is the typical active transistor count range for a Very Large Scale Integration (VLSI) chip?",
+        "opts": [
+          "1 to 10",
+          "100 to 10,000",
+          "10,000 to 1,000,000",
+          "Over 1,000,000"
+        ],
+        "ans": "10,000 to 1,000,000",
+        "exp": "VLSI classification covers circuits with 10k to 1 million active devices."
+      },
+      {
+        "q": "Moore's Law predicts that the transistor density on an IC doubles approximately every:",
+        "opts": [
+          "6 months",
+          "1 year",
+          "2 years",
+          "5 years"
+        ],
+        "ans": "2 years",
+        "exp": "Gordon Moore observed that transistor counts double roughly every 24 months."
+      },
+      {
+        "q": "Which of the following is a primary physical bottleneck of scaling down below 2nm?",
+        "opts": [
+          "Lack of designers",
+          "Quantum tunneling and static leakage",
+          "Low silicon abundance",
+          "Incorrect Boolean math"
+        ],
+        "ans": "Quantum tunneling and static leakage",
+        "exp": "As gate oxide layers approach atomic thickness, electrons tunnel through the barrier, causing high static leakage."
+      },
+      {
+        "q": "SSI (Small Scale Integration) was primarily used to build:",
+        "opts": [
+          "Basic single logic gates and flip-flops",
+          "8-bit microprocessors",
+          "Modern smart device SoCs",
+          "16-core GPU modules"
+        ],
+        "ans": "Basic single logic gates and flip-flops",
+        "exp": "SSI chips contained very few transistors (usually 1 to 10), covering basic logic gates."
+      },
+      {
+        "q": "What does ULSI stand for in microelectronics classification?",
+        "opts": [
+          "Ultra Large Scale Integration",
+          "Universal Logic Silicon Interface",
+          "Unified Layout Simulation Instrument",
+          "Unipolar Latch Static Impedance"
+        ],
+        "ans": "Ultra Large Scale Integration",
+        "exp": "ULSI stands for Ultra Large Scale Integration, representing chips with over 1,000,000 transistors."
+      },
+      {
+        "q": "Who co-founded Intel and formulated the empirical scaling law for microchips in 1965?",
+        "opts": [
+          "Gordon Moore",
+          "Robert Noyce",
+          "Jack Kilby",
+          "Dennis Ritchie"
+        ],
+        "ans": "Gordon Moore",
+        "exp": "Gordon Moore co-founded Intel and described the doubling of components on a chip."
+      },
+      {
+        "q": "What is the main characteristic of a System-on-Chip (SoC)?",
+        "opts": [
+          "Integration of processor, memory, and peripherals on a single die",
+          "Placing separate packages on a board",
+          "Using vacuum tubes for processing",
+          "Restricting the clock frequency to 1 MHz"
+        ],
+        "ans": "Integration of processor, memory, and peripherals on a single die",
+        "exp": "An SoC integrates all components of a computer or other electronic system into a single integrated circuit."
+      },
+      {
+        "q": "What type of material is primarily used as the substrate in semiconductor manufacturing?",
+        "opts": [
+          "Copper",
+          "Silicon",
+          "Germanium",
+          "Gallium Arsenide"
+        ],
+        "ans": "Silicon",
+        "exp": "Silicon is the most widely used semiconductor substrate due to its abundance and stable oxide."
+      },
+      {
+        "q": "Which scale of integration contains 100 to 10,000 transistors?",
+        "opts": [
+          "SSI",
+          "MSI",
+          "LSI",
+          "VLSI"
+        ],
+        "ans": "MSI",
+        "exp": "MSI (Medium Scale Integration) contains 100 to 10,000 transistors."
+      },
+      {
+        "q": "In digital logic, what is the 'fan-out' of a gate?",
+        "opts": [
+          "The number of gate inputs the output can reliably drive",
+          "The size of the output pin",
+          "The current drawn from power grid",
+          "The temperature of the silicon die"
+        ],
+        "ans": "The number of gate inputs the output can reliably drive",
+        "exp": "Fan-out specifies the maximum number of logical inputs that the output of a single gate can feed."
+      },
+      {
+        "q": "Which rule/law describes the relationship between logic gate count and pin count of an IC?",
+        "opts": [
+          "Rent's Rule",
+          "Moore's Law",
+          "Ohm's Law",
+          "Dennard Scaling"
+        ],
+        "ans": "Rent's Rule",
+        "exp": "Rent's Rule is an empirical relationship between the number of external pins and the number of logic blocks."
+      },
+      {
+        "q": "What does 'foundry' refer to in the semiconductor industry?",
+        "opts": [
+          "A design center",
+          "A fabrication plant that manufactures silicon wafers",
+          "A software testing company",
+          "A packaging facility"
+        ],
+        "ans": "A fabrication plant that manufactures silicon wafers",
+        "exp": "A semiconductor fabrication plant (foundry or fab) manufactures the physical integrated circuits."
+      },
+      {
+        "q": "Which technology node type represents a 3D channel wrap gate design?",
+        "opts": [
+          "Planar MOSFET",
+          "BJT",
+          "FinFET",
+          "JFET"
+        ],
+        "ans": "FinFET",
+        "exp": "FinFET wraps the gate around a thin vertical fin, forming a 3D channel structure."
+      },
+      {
+        "q": "What is a 'wafer' in silicon processing?",
+        "opts": [
+          "A thin slice of semiconductor material used to fabricate ICs",
+          "A type of logic analyzer",
+          "A packaging layer",
+          "A testing signal pin"
+        ],
+        "ans": "A thin slice of semiconductor material used to fabricate ICs",
+        "exp": "Wafers are round, thin slices of crystalline silicon used as substrates for microchips."
+      },
+      {
+        "q": "Which scale of integration corresponds to early 8-bit microprocessors like the Intel 8080?",
+        "opts": [
+          "MSI",
+          "LSI",
+          "VLSI",
+          "ULSI"
+        ],
+        "ans": "LSI",
+        "exp": "LSI (Large Scale Integration) covers 10,000 to 100,000 transistors, suitable for early CPUs."
+      },
+      {
+        "q": "What is the primary purpose of packaging an IC?",
+        "opts": [
+          "To protect the silicon die and provide electrical connection pins",
+          "To reduce the gate count",
+          "To increase clock speed",
+          "To eliminate parasitics completely"
+        ],
+        "ans": "To protect the silicon die and provide electrical connection pins",
+        "exp": "Packaging protects the fragile silicon die and provides contact leads to mount on PCBs."
+      },
+      {
+        "q": "What does 'yield' represent in semiconductor manufacturing?",
+        "opts": [
+          "The speed of the chip",
+          "The percentage of functional dies on a fabricated wafer",
+          "The voltage limit of the substrate",
+          "The width of the channel"
+        ],
+        "ans": "The percentage of functional dies on a fabricated wafer",
+        "exp": "Yield is the ratio of working chips to the total number of chips fabricated on a wafer."
+      },
+      {
+        "q": "Which metric measures the processing performance per unit of silicon area?",
+        "opts": [
+          "Computational Density",
+          "Dynamic Power",
+          "Static Current",
+          "Transistor Count"
+        ],
+        "ans": "Computational Density",
+        "exp": "Computational Density measures performance throughput relative to silicon area."
+      },
+      {
+        "q": "What does a 'fabless' semiconductor company mean?",
+        "opts": [
+          "Designs chips but outsources physical fabrication",
+          "Fabricates chips but does not design them",
+          "Has no design team",
+          "Sells raw silicon wafers"
+        ],
+        "ans": "Designs chips but outsources physical fabrication",
+        "exp": "Fabless companies focus on design and sales, outsourcing wafer fabrication to foundries."
+      },
+      {
+        "q": "What is the typical thickness of a silicon wafer?",
+        "opts": [
+          "1 to 2 meters",
+          "0.5 to 1.0 millimeters",
+          "1 to 2 nanometers",
+          "10 to 20 micrometers"
+        ],
+        "ans": "0.5 to 1.0 millimeters",
+        "exp": "Wafers are thin discs, typically between 500 to 1000 micrometers thick."
+      },
+      {
+        "q": "Which company developed the first commercial microprocessor (the 4004)?",
+        "opts": [
+          "AMD",
+          "IBM",
+          "Intel",
+          "TSMC"
+        ],
+        "ans": "Intel",
+        "exp": "Intel introduced the 4-bit 4004 microprocessor in 1971."
+      },
+      {
+        "q": "Which term describes the degradation of IC performance due to continuous temperature and voltage stress over time?",
+        "opts": [
+          "Silicon Aging",
+          "Electromigration",
+          "Body effect",
+          "Channel modulation"
+        ],
+        "ans": "Silicon Aging",
+        "exp": "Silicon aging refers to degradation mechanisms (like NBTI and HCI) that shift parameters over time."
+      },
+      {
+        "q": "What does GDSII stand for in the IC design flow?",
+        "opts": [
+          "Graphic Database System II",
+          "General Design Standard II",
+          "Gate Delay Simulator II",
+          "Global Die Structure II"
+        ],
+        "ans": "Graphic Database System II",
+        "exp": "GDSII is the standard database format for exchange of integrated circuit physical layout data."
+      }
+    ],
+    "CMOS Technology": [
+      {
+        "q": "Why is the PMOS transistor made wider than the NMOS in a symmetric CMOS inverter layout?",
+        "opts": [
+          "PMOS handles higher voltages",
+          "Hole mobility is 2-3x lower than electron mobility",
+          "PMOS needs to be closer to VDD",
+          "It reduces fabrication costs"
+        ],
+        "ans": "Hole mobility is 2-3x lower than electron mobility",
+        "exp": "Because holes have lower mobility than electrons, PMOS must be wider to match the current-drive capacity and ensure symmetric rise/fall times."
+      },
+      {
+        "q": "When the input voltage to a CMOS inverter is Vin = VDD (Logic H), what are the states of the NMOS and PMOS?",
+        "opts": [
+          "NMOS is ON, PMOS is OFF",
+          "NMOS is OFF, PMOS is ON",
+          "Both are ON",
+          "Both are OFF"
+        ],
+        "ans": "NMOS is ON, PMOS is OFF",
+        "exp": "High input gate voltage attracts electrons in NMOS (ON) and shuts down PMOS channel (OFF), pulling output to Ground."
+      },
+      {
+        "q": "In which region does a MOSFET operate if Vgs > Vth and Vds >= Vgs - Vth?",
+        "opts": [
+          "Cut-off",
+          "Linear",
+          "Saturation",
+          "Breakdown"
+        ],
+        "ans": "Saturation",
+        "exp": "When drain-to-source voltage Vds exceeds the gate overdrive (Vgs - Vth), the channel pinch-off occurs near the drain, putting the device in Saturation."
+      },
+      {
+        "q": "What is the formula for dynamic capacitive switching power in CMOS circuits?",
+        "opts": [
+          "P = V * I",
+          "P = C * V_DD^2 * f",
+          "P = I_leak * V_DD",
+          "P = V^2 / R"
+        ],
+        "ans": "P = C * V_DD^2 * f",
+        "exp": "Dynamic capacitive power is directly proportional to load capacitance, frequency, and the square of supply voltage."
+      },
+      {
+        "q": "How is threshold voltage (Vth) of a MOSFET defined?",
+        "opts": [
+          "Vgs at which strong inversion occurs in the channel",
+          "Vds at which current saturates",
+          "Minimum supply voltage",
+          "Leakage voltage limit"
+        ],
+        "ans": "Vgs at which strong inversion occurs in the channel",
+        "exp": "Vth is the minimum gate-to-source voltage required to create an inversion layer for conduction."
+      },
+      {
+        "q": "How does the body effect influence the threshold voltage (Vth) of a MOSFET?",
+        "opts": [
+          "Decreases Vth",
+          "Increases Vth",
+          "Has no effect",
+          "Reverses polarity"
+        ],
+        "ans": "Increases Vth",
+        "exp": "A reverse bias between the source and substrate (bulk) increases Vth due to depletion layer expansion."
+      },
+      {
+        "q": "In which region of operation does 'channel length modulation' occur?",
+        "opts": [
+          "Linear",
+          "Cut-off",
+          "Saturation",
+          "Subthreshold"
+        ],
+        "ans": "Saturation",
+        "exp": "Increasing Vds beyond pinch-off shifts the channel termination point away from the drain, decreasing effective length."
+      },
+      {
+        "q": "Which mechanism dominates leakage power in deep sub-micron (sub-10nm) planar transistors?",
+        "opts": [
+          "Subthreshold leakage and gate oxide tunneling",
+          "Short-circuit dissipation",
+          "Dynamic charging",
+          "Junction heating"
+        ],
+        "ans": "Subthreshold leakage and gate oxide tunneling",
+        "exp": "As gate oxide and channel dimensions shrink, static leakage currents dominate due to tunneling and poor gate control."
+      },
+      {
+        "q": "What prevents latch-up in CMOS layout implementations?",
+        "opts": [
+          "Using guard rings and well taps",
+          "Adding serial resistors",
+          "Increasing clock skew",
+          "Reducing channel width"
+        ],
+        "ans": "Using guard rings and well taps",
+        "exp": "Guard rings collect stray carriers, and well taps clamp well potentials, preventing parasitic SCR triggering."
+      },
+      {
+        "q": "What is the 'noise margin' of a CMOS logic gate?",
+        "opts": [
+          "The input voltage range a gate can tolerate without changing output logic",
+          "The noise generated by standard cells",
+          "The thermal limit of substrate",
+          "The dynamic current drawn from grid"
+        ],
+        "ans": "The input voltage range a gate can tolerate without changing output logic",
+        "exp": "Noise margin is the measure of noise immunity of a gate, defined as differences between logic voltage parameters."
+      },
+      {
+        "q": "In a CMOS NAND gate, how are the NMOS and PMOS transistors connected?",
+        "opts": [
+          "NMOS in series, PMOS in parallel",
+          "NMOS in parallel, PMOS in series",
+          "Both in series",
+          "Both in parallel"
+        ],
+        "ans": "NMOS in series, PMOS in parallel",
+        "exp": "NAND pull-down requires both NMOS to conduct (series), while pull-up requires either PMOS to conduct (parallel)."
+      },
+      {
+        "q": "In a CMOS NOR gate, how are the NMOS and PMOS transistors connected?",
+        "opts": [
+          "NMOS in series, PMOS in parallel",
+          "NMOS in parallel, PMOS in series",
+          "Both in series",
+          "Both in parallel"
+        ],
+        "ans": "NMOS in parallel, PMOS in series",
+        "exp": "NOR pull-down requires either NMOS to conduct (parallel), while pull-up requires both PMOS to conduct (series)."
+      },
+      {
+        "q": "When does short-circuit current flow in a CMOS logic gate?",
+        "opts": [
+          "During input transitions when both pull-up and pull-down networks are partially ON",
+          "When Vin is stable at VDD",
+          "When Vin is stable at GND",
+          "Only in cut-off state"
+        ],
+        "ans": "During input transitions when both pull-up and pull-down networks are partially ON",
+        "exp": "As the input switches, both PMOS and NMOS conduct momentarily, creating a direct path from VDD to GND."
+      },
+      {
+        "q": "What happens to the subthreshold leakage current of a transistor as temperature increases?",
+        "opts": [
+          "Increases exponentially",
+          "Decreases lineally",
+          "Remains constant",
+          "Becomes zero"
+        ],
+        "ans": "Increases exponentially",
+        "exp": "Subthreshold current is exponentially dependent on thermal voltage, rising rapidly with temperature."
+      },
+      {
+        "q": "What is the formula for gate overdrive voltage?",
+        "opts": [
+          "Vgs - Vth",
+          "Vds - Vgs",
+          "Vgs + Vth",
+          "Vdd - Vth"
+        ],
+        "ans": "Vgs - Vth",
+        "exp": "Gate overdrive is the voltage excess over the threshold voltage: Vgs - Vth."
+      },
+      {
+        "q": "Which region of operation has Vgs > Vth and Vds < Vgs - Vth?",
+        "opts": [
+          "Linear / Triode",
+          "Saturation",
+          "Cut-off",
+          "Sub-threshold"
+        ],
+        "ans": "Linear / Triode",
+        "exp": "When drain voltage is below gate overdrive, the channel is continuous and acts as a voltage-controlled resistor."
+      },
+      {
+        "q": "What is Drain-Induced Barrier Lowering (DIBL)?",
+        "opts": [
+          "Lowering of source barrier by high drain voltage",
+          "Increasing Vth at low drain voltage",
+          "Channel pinch-off",
+          "Oxide gate rupture"
+        ],
+        "ans": "Lowering of source barrier by high drain voltage",
+        "exp": "In short channels, drain field lines reach the source, lowering the potential barrier and reducing Vth."
+      },
+      {
+        "q": "What is the velocity saturation effect in short-channel devices?",
+        "opts": [
+          "Carrier velocity limiting at high lateral electric fields",
+          "Clock frequency limits",
+          "Diffusion current constraints",
+          "Body effect increases"
+        ],
+        "ans": "Carrier velocity limiting at high lateral electric fields",
+        "exp": "High lateral fields cause carriers to scatter, saturating their speed and limiting maximum current."
+      },
+      {
+        "q": "What is the physical subthreshold slope (SS) limit for planar silicon MOSFETs at room temperature (300K)?",
+        "opts": [
+          "60 mV/decade",
+          "10 mV/decade",
+          "100 mV/decade",
+          "120 mV/decade"
+        ],
+        "ans": "60 mV/decade",
+        "exp": "Thermodynamics restricts the subthreshold slope of planar transistors to a minimum of ~60 mV/dec."
+      },
+      {
+        "q": "What is the primary advantage of Silicon-on-Insulator (SOI) technology?",
+        "opts": [
+          "Reduced junction capacitances and latch-up immunity",
+          "Higher threshold voltage",
+          "Lower silicon cost",
+          "Simple packaging design"
+        ],
+        "ans": "Reduced junction capacitances and latch-up immunity",
+        "exp": "The insulating layer isolates transistors, reducing parasitic source/drain capacitances and preventing latch-up."
+      },
+      {
+        "q": "What is the dielectric material used in high-k metal gate (HKMG) technology?",
+        "opts": [
+          "Hafnium oxide",
+          "Silicon dioxide",
+          "Silicon nitride",
+          "Aluminum"
+        ],
+        "ans": "Hafnium oxide",
+        "exp": "Hafnium-based oxides replace silicon dioxide to increase capacitance and reduce gate tunneling leakage."
+      },
+      {
+        "q": "How does scaling the threshold voltage Vth affect static power consumption?",
+        "opts": [
+          "Increases subthreshold leakage exponentially",
+          "Decreases leakage power",
+          "Has no effect on static power",
+          "Implements clock gating"
+        ],
+        "ans": "Increases subthreshold leakage exponentially",
+        "exp": "Lowering Vth increases subthreshold current exponentially, leading to high static leakage."
+      },
+      {
+        "q": "What is the primary carrier in PMOS transistors?",
+        "opts": [
+          "Holes",
+          "Electrons",
+          "Ions",
+          "Protons"
+        ],
+        "ans": "Holes",
+        "exp": "PMOS uses p-type channels where positive holes are the majority charge carriers."
+      }
+    ],
+    "VLSI Design Flow": [
+      {
+        "q": "Which design step translates RTL source code into physical gate cells?",
+        "opts": [
+          "Functional Verification",
+          "Logic Synthesis",
+          "Floorplanning",
+          "Testing"
+        ],
+        "ans": "Logic Synthesis",
+        "exp": "Logic synthesis translates behavioral description (RTL) into a structural cell netlist."
+      },
+      {
+        "q": "What check ensures that the physical geometric layout matches the electrical circuit schematic?",
+        "opts": [
+          "DRC (Design Rule Check)",
+          "LVS (Layout vs Schematic)",
+          "STA (Static Timing Analysis)",
+          "ATPG"
+        ],
+        "ans": "LVS (Layout vs Schematic)",
+        "exp": "Layout vs Schematic (LVS) compares the layout connectivity against the logical schematic to ensure layout accuracy."
+      },
+      {
+        "q": "In back-end physical design, 'CTS' stands for:",
+        "opts": [
+          "Chip Test Standard",
+          "Clock Tree Synthesis",
+          "Capacitor Timing System",
+          "Cell Translation Stage"
+        ],
+        "ans": "Clock Tree Synthesis",
+        "exp": "Clock Tree Synthesis (CTS) builds the clock distribution network using buffers to minimize clock skew and jitter."
+      },
+      {
+        "q": "Setup and hold time violations are verified during which procedure?",
+        "opts": [
+          "Functional simulation",
+          "Design for Testability (DFT)",
+          "Static Timing Analysis (STA)",
+          "Logic synthesis"
+        ],
+        "ans": "Static Timing Analysis (STA)",
+        "exp": "STA is dedicated to verifying that the design meets all setup and hold timing constraints across all paths."
+      },
+      {
+        "q": "What does Floorplanning define in Physical Design?",
+        "opts": [
+          "Core boundaries, power pad locations, and macro placements",
+          "Logical equations",
+          "RTL code syntax",
+          "Test vectors"
+        ],
+        "ans": "Core boundaries, power pad locations, and macro placements",
+        "exp": "Floorplanning establishes chip dimensions, places I/O cells, and allocates space for macro blocks."
+      },
+      {
+        "q": "What is 'routing' in the ASIC design flow?",
+        "opts": [
+          "Creating physical metal line connections between standard cells",
+          "Simulating code test benches",
+          "Partitioning logic gates",
+          "Generating clock trees"
+        ],
+        "ans": "Creating physical metal line connections between standard cells",
+        "exp": "Routing connects standard cell pins using metal tracks while avoiding layout design rule violations."
+      },
+      {
+        "q": "What does RTL stand for in the front-end design stage?",
+        "opts": [
+          "Register Transfer Level",
+          "Routing Tree Layout",
+          "Real Time Logic",
+          "Receiver Timing Loop"
+        ],
+        "ans": "Register Transfer Level",
+        "exp": "RTL is a modeling style that describes digital circuits in terms of data flows between registers."
+      },
+      {
+        "q": "What is the primary goal of Functional Verification?",
+        "opts": [
+          "Checking RTL behavior against functional specifications",
+          "Optimizing gate cell layouts",
+          "Inserting scan chains",
+          "Testing silicon wafers"
+        ],
+        "ans": "Checking RTL behavior against functional specifications",
+        "exp": "Verification ensures the design logic operates correctly as defined in the specification."
+      },
+      {
+        "q": "What is 'linting' in RTL design?",
+        "opts": [
+          "Static syntax and semantic checks on source code",
+          "Dynamic simulation of logic gates",
+          "Synthesis parameter overriding",
+          "RC extraction"
+        ],
+        "ans": "Static syntax and semantic checks on source code",
+        "exp": "Linting statically reviews RTL code to flag coding style violations and potential hardware structural issues."
+      },
+      {
+        "q": "What check ensures that layout geometries obey foundry spacing and width rules?",
+        "opts": [
+          "DRC (Design Rule Check)",
+          "LVS",
+          "STA",
+          "ATPG"
+        ],
+        "ans": "DRC (Design Rule Check)",
+        "exp": "Design Rule Checking (DRC) verifies layouts satisfy sub-micron lithographic limits."
+      },
+      {
+        "q": "What does ATPG do in DFT design?",
+        "opts": [
+          "Generates test patterns for manufacturing defect testing",
+          "Runs timing constraints",
+          "Optimizes power grids",
+          "Compiles Verilog models"
+        ],
+        "ans": "Generates test patterns for manufacturing defect testing",
+        "exp": "ATPG (Automatic Test Pattern Generator) produces vectors to detect structural faults in fabricated ICs."
+      },
+      {
+        "q": "What does BIST stand for in chip architecture?",
+        "opts": [
+          "Built-In Self-Test",
+          "Bus Interface Setup Task",
+          "Buffer Insertion Slack Tuning",
+          "Binary Interface Simulation Tool"
+        ],
+        "ans": "Built-In Self-Test",
+        "exp": "BIST allows a circuit to test its own sub-blocks (like memory arrays) using embedded test hardware."
+      },
+      {
+        "q": "How is timing slack defined?",
+        "opts": [
+          "Difference between required and actual arrival times",
+          "The skew of clock trees",
+          "Total delay of cell paths",
+          "Clock period limit"
+        ],
+        "ans": "Difference between required and actual arrival times",
+        "exp": "Slack measures timing margin: positive slack means timing is met; negative slack is a violation."
+      },
+      {
+        "q": "How do you resolve a setup timing violation?",
+        "opts": [
+          "Gate sizing, logic restructuring, or lower threshold cells",
+          "Inserting delay buffers on the data path",
+          "Increasing the clock frequency",
+          "Bypassing STA verification"
+        ],
+        "ans": "Gate sizing, logic restructuring, or lower threshold cells",
+        "exp": "Setup is fixed by speeding up the critical path (sizing up cells, reducing logic depths, or using fast LVT cells)."
+      },
+      {
+        "q": "How do you resolve a hold timing violation?",
+        "opts": [
+          "Inserting delay buffers on the data path",
+          "Decreasing the clock frequency",
+          "Reducing gate driver sizes",
+          "Changing standard cells to HVT"
+        ],
+        "ans": "Inserting delay buffers on the data path",
+        "exp": "Hold is fixed by delaying fast data signals using buffers, ensuring data stays stable until the hold constraint is met."
+      },
+      {
+        "q": "What is a multi-cycle path in STA?",
+        "opts": [
+          "A path designed to take more than one clock cycle to propagate data",
+          "A clock domain crossover path",
+          "An incorrect feedback loop",
+          "A path with hold violations"
+        ],
+        "ans": "A path designed to take more than one clock cycle to propagate data",
+        "exp": "Multi-cycle paths are explicitly constrained to allow two or more clock cycles for signal propagation."
+      },
+      {
+        "q": "What is a false path in timing analysis?",
+        "opts": [
+          "A path that cannot physically propagate signals or is timing-exempt",
+          "A logic gate error",
+          "A clock path with high skew",
+          "A layout routing mistake"
+        ],
+        "ans": "A path that cannot physically propagate signals or is timing-exempt",
+        "exp": "False paths are declared to instruct the STA tool not to optimize or analyze non-functional timing paths."
+      },
+      {
+        "q": "What is 'electromigration' in physical layouts?",
+        "opts": [
+          "Metal atom transport under high current density causing failure",
+          "Signal coupling between parallel wires",
+          "Gate oxide breakdown",
+          "Charge accumulation on routing tracks"
+        ],
+        "ans": "Metal atom transport under high current density causing failure",
+        "exp": "High current density causes metal atoms to drift, leading to voids (opens) or hillocks (shorts) in wires."
+      },
+      {
+        "q": "What format is the final layout database file released to the foundry for fabrication?",
+        "opts": [
+          "GDSII / OASIS",
+          "Verilog Netlist",
+          "SDC Timing file",
+          "DEF Placement file"
+        ],
+        "ans": "GDSII / OASIS",
+        "exp": "GDSII and OASIS are standard stream formats representing physical layout geometries for photolithography."
+      },
+      {
+        "q": "What does the term 'Tape-out' refer to?",
+        "opts": [
+          "Releasing final layout database (GDSII) to the foundry",
+          "Wrapping finished chips in reels",
+          "Running wafer logic tests",
+          "Writing verilog testbenches"
+        ],
+        "ans": "Releasing final layout database (GDSII) to the foundry",
+        "exp": "Tape-out is the final milestone in the design cycle where the layout is shipped for mask fabrication."
+      },
+      {
+        "q": "What is OCV (On-Chip Variation) in STA?",
+        "opts": [
+          "Process, voltage, and temperature variations across a single die",
+          "Variations between wafer batches",
+          "Clock phase differences",
+          "Leakage variations on standard cells"
+        ],
+        "ans": "Process, voltage, and temperature variations across a single die",
+        "exp": "OCV models localized variation on the same silicon chip using derating factors."
+      },
+      {
+        "q": "What is dynamic IR drop?",
+        "opts": [
+          "Transient power grid voltage drop during active clock transitions",
+          "Static current leakage drop",
+          "Electromigration in power grids",
+          "Threshold voltage degradation"
+        ],
+        "ans": "Transient power grid voltage drop during active clock transitions",
+        "exp": "Dynamic IR drop is the voltage sag caused by high current draws during active clock transitions."
+      },
+      {
+        "q": "What does DFT stand for in the design flow?",
+        "opts": [
+          "Design for Testability",
+          "Dynamic Functional Timing",
+          "Digital Filter Template",
+          "Delay Fault Testing"
+        ],
+        "ans": "Design for Testability",
+        "exp": "DFT incorporates test features (like scan chains) into the design to facilitate structural silicon testing."
+      }
+    ],
+    "Verilog Basics": [
+      {
+        "q": "Which operator is used for non-blocking assignments in sequential Verilog blocks?",
+        "opts": [
+          "=",
+          "<=",
+          "==",
+          "=>"
+        ],
+        "ans": "<=",
+        "exp": "The '<=' operator is non-blocking. It schedules parallel assignments at the end of the time step, preventing race conditions in sequential logic."
+      },
+      {
+        "q": "A variable that stores its value procedures-wise and is assigned within 'always' blocks is declared as:",
+        "opts": [
+          "wire",
+          "reg",
+          "param",
+          "assign"
+        ],
+        "ans": "reg",
+        "exp": "Variables assigned inside 'initial' or 'always' blocks must be declared as 'reg'."
+      },
+      {
+        "q": "What represents the continuous assignment statement in Verilog dataflow modeling?",
+        "opts": [
+          "always",
+          "assign",
+          "initial",
+          "always_comb"
+        ],
+        "ans": "assign",
+        "exp": "The 'assign' statement defines a continuous driver on a wire variable, re-evaluating instantly whenever inputs change."
+      },
+      {
+        "q": "In Verilog, what does the operator '^' represent when applied to a single vector (e.g., ^bus)?",
+        "opts": [
+          "Bitwise XOR",
+          "Exponential power",
+          "Reduction XOR (parity check)",
+          "Logical XOR"
+        ],
+        "ans": "Reduction XOR (parity check)",
+        "exp": "When placed before a single vector, '^' is a reduction operator that XORs all bits of that vector together, yielding a 1-bit result."
+      },
+      {
+        "q": "What is the key difference between blocking (=) and non-blocking (<=) assignments?",
+        "opts": [
+          "Blocking executes sequentially; non-blocking executes concurrently in parallel",
+          "Non-blocking blocks execution",
+          "Blocking is only for registers",
+          "Non-blocking requires wires"
+        ],
+        "ans": "Blocking executes sequentially; non-blocking executes concurrently in parallel",
+        "exp": "Blocking assignments update instantly before moving on. Non-blocking update at the end of the step."
+      },
+      {
+        "q": "What is the scope of a 'localparam' constant in Verilog?",
+        "opts": [
+          "Restricted to the local module and cannot be overridden",
+          "Global to the project",
+          "Can be changed in testbenches",
+          "Can be accessed by nested modules only"
+        ],
+        "ans": "Restricted to the local module and cannot be overridden",
+        "exp": "localparam declares constants that are locally protected from external parameter overrides."
+      },
+      {
+        "q": "In `timescale 1ns/1ps, what do the terms represent?",
+        "opts": [
+          "1ns reference time unit, 1ps precision resolution",
+          "1ns rise delay, 1ps fall delay",
+          "1ns execution speed, 1ps sampling rate",
+          "1ns clock period, 1ps jitter limit"
+        ],
+        "ans": "1ns reference time unit, 1ps precision resolution",
+        "exp": "The first number is the unit for time specifications; the second is the rounding precision."
+      },
+      {
+        "q": "How do you override module parameters during module instantiation in Verilog?",
+        "opts": [
+          "Using #(.param_name(value)) syntax",
+          "Using localparam statements",
+          "Assigning value inside the testbench directly",
+          "Recompining source files"
+        ],
+        "ans": "Using #(.param_name(value)) syntax",
+        "exp": "Named parameter override passes parameters during module instantiation using the '#' syntax."
+      },
+      {
+        "q": "When does a procedural block always @(posedge clk) trigger?",
+        "opts": [
+          "On the rising edge of the clock signal",
+          "On any clock edge",
+          "When clk is stable at logic 1",
+          "Continuously in parallel"
+        ],
+        "ans": "On the rising edge of the clock signal",
+        "exp": "posedge triggers the block execution when the clock transition goes from low to high."
+      },
+      {
+        "q": "What is the default initial logic state of a 'wire' variable in Verilog simulation?",
+        "opts": [
+          "z (High Impedance)",
+          "x (Unknown)",
+          "0 (Logic Low)",
+          "1 (Logic High)"
+        ],
+        "ans": "z (High Impedance)",
+        "exp": "Wires are high-impedance (z) by default until driven by an active gate or assign statement."
+      },
+      {
+        "q": "What is the default initial logic state of a 'reg' variable in Verilog simulation?",
+        "opts": [
+          "z (High Impedance)",
+          "x (Unknown)",
+          "0 (Logic Low)",
+          "1 (Logic High)"
+        ],
+        "ans": "x (Unknown)",
+        "exp": "Register variables store state and initialize to the unknown value (x) in simulation until assigned."
+      },
+      {
+        "q": "How do you model a 2-to-1 Multiplexer using a ternary conditional operator?",
+        "opts": [
+          "assign y = sel ? i1 : i0;",
+          "assign y = sel ? i0 : i1;",
+          "always @(*) y = i1;",
+          "assign y = sel & i1;"
+        ],
+        "ans": "assign y = sel ? i1 : i0;",
+        "exp": "If sel is 1, y gets i1, else y gets i0. This is the standard dataflow representation of a 2:1 MUX."
+      },
+      {
+        "q": "What is the purpose of a 'generate' block in Verilog?",
+        "opts": [
+          "Looping or conditional instantiation of gates, modules, or variables",
+          "Generating clock signals",
+          "Compiling testbench values",
+          "Defining timing constraints"
+        ],
+        "ans": "Looping or conditional instantiation of gates, modules, or variables",
+        "exp": "Generate blocks permit parameterized design structures to be duplicated or conditionally instantiated."
+      },
+      {
+        "q": "What is a main difference between a 'task' and a 'function' in Verilog?",
+        "opts": [
+          "Tasks can consume time (delays); functions execute in zero simulation time",
+          "Tasks cannot have outputs",
+          "Functions can contain delays",
+          "Tasks must return a direct value"
+        ],
+        "ans": "Tasks can consume time (delays); functions execute in zero simulation time",
+        "exp": "Functions cannot contain delays (#), wait, or event triggers (@) and must run in zero simulation time."
+      },
+      {
+        "q": "Which system task prints variable transitions to the console only when their values change?",
+        "opts": [
+          "$monitor",
+          "$display",
+          "$write",
+          "$strobe"
+        ],
+        "ans": "$monitor",
+        "exp": "$monitor registers variables and automatically prints messages when their values change."
+      },
+      {
+        "q": "What is a Verilog testbench?",
+        "opts": [
+          "A non-synthesizable module used to apply stimuli and verify DUT behavior",
+          "A physical prototype board",
+          "A standard gate library",
+          "A compiler command file"
+        ],
+        "ans": "A non-synthesizable module used to apply stimuli and verify DUT behavior",
+        "exp": "Testbenches apply simulation stimuli to design inputs and monitor outputs to verify functional behavior."
+      },
+      {
+        "q": "In Verilog, what value does the literal representation 4'b10x0 represent?",
+        "opts": [
+          "4-bit binary vector with the second bit unknown",
+          "Hexadecimal representation",
+          "Undefined port connection",
+          "High impedance vector"
+        ],
+        "ans": "4-bit binary vector with the second bit unknown",
+        "exp": "The literal represents a 4-bit binary value where bit 1 is '0', bit 2 is 'x' (unknown), bit 3 is '0', and bit 4 (MSB) is '1'."
+      },
+      {
+        "q": "What does the sensitivity list syntax always @(*) do in Verilog-2001?",
+        "opts": [
+          "Creates an automatic sensitivity list for combinational logic procedural blocks",
+          "Triggers only on clock positive edges",
+          "Registers all system parameters",
+          "Disables gate timing delays"
+        ],
+        "ans": "Creates an automatic sensitivity list for combinational logic procedural blocks",
+        "exp": "always @(*) automatically senses all variables read in the block, preventing latch creation due to missing signals."
+      },
+      {
+        "q": "How do you model high impedance (Z) in Verilog code?",
+        "opts": [
+          "1'bz",
+          "1'bx",
+          "1'b0",
+          "1'b1"
+        ],
+        "ans": "1'bz",
+        "exp": "High impedance is represented by the character 'z' or 'Z'."
+      },
+      {
+        "q": "What is the structural model of a half adder using Verilog gate primitives?",
+        "opts": [
+          "xor(sum, a, b); and(cout, a, b);",
+          "assign sum = a ^ b;",
+          "always @(*) sum = a ^ b;",
+          "or(sum, a, b);"
+        ],
+        "ans": "xor(sum, a, b); and(cout, a, b);",
+        "exp": "Structural modeling instantiates the gate primitives directly, connecting outputs first then inputs."
+      },
+      {
+        "q": "How do you declare a parameter named 'WIDTH' with a default value of 8?",
+        "opts": [
+          "parameter WIDTH = 8;",
+          "localparam WIDTH = 8;",
+          "define WIDTH 8",
+          "const int WIDTH = 8;"
+        ],
+        "ans": "parameter WIDTH = 8;",
+        "exp": "The parameter keyword defines module constants that can be overridden at instantiation."
+      },
+      {
+        "q": "What is the behavior of the case equality operator (===) in Verilog?",
+        "opts": [
+          "Performs strict bitwise comparison including x and z states",
+          "Ignores x and z states",
+          "Forces value matching",
+          "Converts values to decimal"
+        ],
+        "ans": "Performs strict bitwise comparison including x and z states",
+        "exp": "=== compares bits exactly, including matching unknown (x) and high-impedance (z) levels."
+      },
+      {
+        "q": "Which system task terminates the active simulator execution?",
+        "opts": [
+          "$finish",
+          "$stop",
+          "$exit",
+          "$terminate"
+        ],
+        "ans": "$finish",
+        "exp": "$finish exits the simulator and returns control to the operating system."
+      }
+    ]
+  }
+}
