@@ -136,7 +136,7 @@ with tab3:
     col_inv1, col_inv2 = st.columns([1, 2])
     
     with col_inv1:
-        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CMOS_Inverter.svg/200px-CMOS_Inverter.svg.png", width=150, caption="CMOS Inverter Schematic")
+        st.image("https://en.wikipedia.org/wiki/CMOS#/media/File:CMOS_inverter.svg", width=150, caption="CMOS Inverter Schematic")
         st.image("cmos_cross_section.jpg", caption="CMOS Integrated Inverter Cross-Section", width="stretch")
         st.write("""
         **Operational States:**
